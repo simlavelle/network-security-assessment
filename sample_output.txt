@@ -1,0 +1,9 @@
+ CVSS  SEV       HOST             PORT  FINDING
+------------------------------------------------------------------------------
+  9.8  CRITICAL  10.168.27.10     445   OS end-of-life (2018) - no patches
+  7.5  HIGH      10.168.27.14     22    Obsolete SSH version missing patches
+  7.4  HIGH      10.168.27.15     80    Plaintext HTTP - MITM/eavesdrop risk
+  5.3  MEDIUM    10.168.27.132    53    Open resolver - amplification risk
+  0.0  INFO      10.168.27.20     443   Supported - baseline
+------------------------------------------------------------------------------
+5 findings | 3 HIGH/CRITICAL to remediate first

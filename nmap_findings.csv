@@ -1,0 +1,6 @@
+host,os,port,service,version,finding,cvss
+10.168.27.10,Windows Server 2012,445,microsoft-ds,SMB,OS end-of-life (2018) - no patches,9.8
+10.168.27.14,Linux,22,ssh,OpenSSH 5.5p1,Obsolete SSH version missing patches,7.5
+10.168.27.15,Windows 7,80,http,HTTP,Plaintext HTTP - MITM/eavesdrop risk,7.4
+10.168.27.20,Linux,443,https,TLS1.2,Supported - baseline,0.0
+10.168.27.132,Linux,53,domain,dns,Open resolver - amplification risk,5.3
